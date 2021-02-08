@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+#container {
+  margin: 5rem;
+  width: 90%;
+  max-width: 900px;
+  margin: 50px auto;
+}
+
+#searchForm {
+  width: 100%;
+
+  display: flex;
+}
+
+#searchForm button {
+  width: 30%;
+  background-color: rgb(61, 61, 61);
+  color: #fff;
+  z-index: 5;
+}
+
+#searchForm button:hover {
+  box-shadow: 0 0 5px 5px #000;
+}
+
+#searchForm button:active {
+  transform: scale(1.1);
+}
+
+.searchForm__box {
+  background-color: #252525;
+  color: #fff;
+  padding: 15px 25px;
+  width: 70%;
+}
+
+.searchForm__box,
+#searchForm button {
+  border: none;
+  outline: none;
+}
+
+#giphyImage {
+  width: 100%;
+  max-width: 900px;
+}
